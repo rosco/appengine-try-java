@@ -26,6 +26,6 @@ public class DemoServlet extends HttpServlet {
   public void doGet(HttpServletRequest req, HttpServletResponse resp)
       throws IOException {
     resp.setContentType("text/plain");
-    resp.getWriter().println("{ \"name\": \"Nigel - open the browser console to see some sign in attributes\" }");
+    resp.getWriter().println("{ \"name\": \"Nigel - open the browser console, then Sign in, then Sign out\" }");
   }
 }
